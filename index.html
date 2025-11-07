@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Menú del Perrito</title>
+<style>
+body {
+background-image: url('imagenes/perrito2.jpg');
+background-size: cover;
+background-position: center;
+font-family: Arial, sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50px 20px;
+min-height: 100vh;
+	}
+	
+	h1 {
+color: #FF7043;
+margin-bottom: 40px;
+text-shadow: 1px 1px 2px #fff;
+	}
+	
+	table {
+border-collapse: collapse;
+width: 85%;
+max-width: 600px;
+margin-bottom: 30px;
+background-color: rgba(255, 255, 153, 0.9); /* tabla amarilla */
+border-radius: 15px;
+overflow: hidden;
+	}
+	
+	th {
+padding: 15px;
+background-color: #FFEB3B; /* amarillo mas intenso para el encabezado */
+	text-align: center;
+	font-size: 20px;
+	color: #6D4C41;
+		}
+		
+		tr {
+	transition: 0.3s;
+		}
+		
+		/* Hover en fila para que cambie de color y se vea clickeable */
+		tr:hover {
+		background-color: #FFF176;
+		cursor: pointer;
+			}
+			
+			td {
+		padding: 15px;
+		text-align: center;
+		font-size: 18px;
+		color: #4E342E;
+			}
+			
+			.boton-volver {
+		padding: 15px 30px;
+		font-size: 18px;
+		background-color: #29B6F6;
+		color: white;
+		border: none;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 0.3s;
+			}
+			
+		.boton-volver:hover {
+		background-color: #0288D1;
+			}
+			</style>
+			</head>
+			<body>
+			<h1>Perfil de Hassam</h1>
+			
+			<!-- Tabla como menu -->
+			<table>
+			<tr onclick="window.location.href='porfavorleer.html'">
+			<td>Por favor leer</td>
+			</tr>
+			<tr onclick="window.location.href='datosperro.html'">
+			<td>Datos del Perro</td>
+			</tr>
+			<tr onclick="window.location.href='datospropietario.html'">
+			<td>Datos del Propietario</td>
+			</tr>
+			<tr onclick="window.location.href='datossalud.html'">
+			<td>Datos de Salud</td>
+			</tr>
+			<tr onclick="window.location.href='otrosdatos.html'">
+			<td>Otros Datos</td>
+			</tr>
+			</table>
+			
+			<!-- Boton volver a inicio -->
+			<button class="boton-volver" onclick="window.location.href='inicio.html'">Volver</button>
+			</body>
+			</html>

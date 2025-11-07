@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Página del Perrito</title>
+<style>
+body {
+background-color: #FFF176; /* fondo amarillo */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+font-family: Arial, sans-serif;
+	}
+	
+	.perrito1 {
+width: 300px;
+height: 300px;
+border: 5px solid #FFA726; /* borde naranja */
+border-radius: 15px;
+object-fit: cover;
+margin-bottom: 20px;
+	}
+	
+	h1 {
+color: #FF7043; /* nombre naranja oscuro */
+margin-bottom: 20px;
+	}
+	
+	.boton-datos {
+padding: 15px 30px;
+font-size: 18px;
+background-color: #29B6F6; /* celeste */
+color: white;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.3s;
+	}
+	
+.boton-datos:hover {
+background-color: #0288D1; /* celeste más oscuro al pasar el mouse */
+	}
+    </style>
+	</head>
+	<body>
+    <!-- Foto del perrito -->
+    <img src="imagenes/perrito1.jpeg" alt="Perrito" class="perrito1">
+	
+    <!-- Nombre del perrito -->
+    <h1>Hassam</h1>
+	
+    <!-- Botón para ver datos (solo uno) -->
+		<button class="boton-datos" onclick="window.location.href='index.html'">Ver Datos</button>
+		</body>
+		</html>

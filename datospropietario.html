@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Datos del Propietario</title>
+<style>
+body {
+background-color: #FFF9C4; /* fondo amarillo suave */
+font-family: Arial, sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50px 20px;
+min-height: 100vh;
+text-align: center;
+	}
+	
+	h1 {
+color: #FF7043;
+margin-bottom: 30px;
+	}
+	
+	ul {
+list-style-type: none;
+background-color: rgba(255, 255, 153, 0.9);
+padding: 25px 40px;
+border-radius: 15px;
+font-size: 20px;
+color: #4E342E;
+line-height: 1.8;
+text-align: left;
+max-width: 700px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+	}
+	
+ul li::before {
+	content: "?? ";
+		}
+		
+		p {
+	font-size: 20px;
+	color: #4E342E;
+	line-height: 1.6;
+	margin-top: 25px;
+	max-width: 700px;
+	text-align: justify;
+		}
+		
+		img {
+	width: 400px;
+	height: auto;
+	border: 5px solid #FF7043;
+	border-radius: 15px;
+	margin-bottom: 30px;
+		}
+		
+		.boton-volver {
+	margin-top: 30px;
+	padding: 15px 30px;
+	font-size: 18px;
+	background-color: #29B6F6;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.3s;
+		}
+		
+	.boton-volver:hover {
+	background-color: #0288D1;
+		}
+		</style>
+		</head>
+		<body>
+		<h1>Datos del Propietario</h1>
+		
+		<!-- Foto del propietario -->
+		<img src="imagenes/perrito4.jpg" alt="Propietario de Hassam">
+		
+		<!-- Lista con datos -->
+		<ul>
+	<li><strong>Nombre del propietario:</strong> Darianna Delgado Cano</li>
+	<li><strong>Numero de telefono:</strong> 71889585</li>
+	<li><strong>Ubicacion:</strong> Concepcion Abajo, Alajuelita</li>
+		</ul>
+		
+		<p>
+		Darianna es una persona carinosa y dedicada, siempre atenta a las necesidades de Hassam. Se asegura de brindarle una vida feliz y llena de amor, manteniendo una conexion especial con su mascota. Le gusta sacarlo a pasear, consentirlo y cuidar de su bienestar cada dia.
+		</p>
+		
+		<!-- Botón volver al menú -->
+		<button class="boton-volver" onclick="window.location.href='index.html'">Volver</button>
+		</body>
+		</html>
